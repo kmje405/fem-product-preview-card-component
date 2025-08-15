@@ -143,6 +143,10 @@ body {
   border-radius: calc(8 / 16 * 1rem);
   text-wrap: nowrap;
   color: var(--c-white);
+  transition-duration: 300ms;
+}
+.btn:hover {
+  background-color: var(--c-green-700);
 }
 
 @media (min-width: 48rem) {
